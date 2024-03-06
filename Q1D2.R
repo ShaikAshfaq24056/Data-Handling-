@@ -1,0 +1,5 @@
+Hours_studied<-c(3,5,7,2,8,6,4,9)
+Exam_scores<-c(65,80,85,60,90,75,70,95)
+png(file="Day2Q3.jpg")
+plot(Hours_studied,Exam_scores,main="the relationship between the number of hours studied and exam scores",xlab="Hours Studied",ylab="Exam Scores")
+dev.off()
